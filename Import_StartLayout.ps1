@@ -5,4 +5,4 @@ If(!(test-path $path))
       New-Item -ItemType Directory -Force -Path $path
 }
 $WebResponse.Content | Out-File -Force -filepath C:\temp\startlayout.bin 
-Import-StartLayout -layoutpath C:\temp\startlayout.xml -mountpath C:\
+Import-StartLayout -layoutpath C:\temp\startlayout.bin -mountpath C:\
