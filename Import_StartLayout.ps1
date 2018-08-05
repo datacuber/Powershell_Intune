@@ -1,4 +1,4 @@
-$WebResponse = Invoke-WebRequest https://raw.githubusercontent.com/datacuber/Powershell_Intune/master/startlayout.bin
+$WebResponse = Invoke-WebRequest https://raw.githubusercontent.com/datacuber/Powershell_Intune/master/startlayout.bin -UseBasicParsing
 $path = "C:\temp"
 If(!(test-path $path))
 {
